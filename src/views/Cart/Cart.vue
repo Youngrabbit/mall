@@ -29,12 +29,7 @@ export default {
     }
   },
   computed: {
-    //   1.普通写法
-    // cartLength () {
-    // //   return this.$store.state.cartLish.length  将方法封装到getters之前的写法
-    //   return this.$store.getters.cartLength   封装到getters之后的写法
-    // }
-    // 2.利用mapGetters解构 ， 还可用 mapState , mapActions
+  
     ...mapGetters(['cartLength'])
   }
 }
